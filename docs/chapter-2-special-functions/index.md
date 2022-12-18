@@ -11,3 +11,4 @@ title: Special Functions
 
 
 ## Lorentzian
+![Figure 3](https://ojo-ht.github.io/Blocks/chapter-2-special-functions/lorentzian/images/lorentzian.png)
