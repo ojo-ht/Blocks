@@ -1,8 +1,7 @@
-# The MF Airy Function
+---
+title: The Airy Function
+subtitle: Not to be messed with
+---
 
-Yo come on. You really do not want to mess with the airy function...
+![Figure 1](https://ojo-ht.github.io/Blocks/chapter-2-special-functions/airy-function/images/airy-intro.png)
 
-I don't even know what it is
-$$\sqrt{3x-1}+(1+x)^2$$
-
-Yo like what is that.
