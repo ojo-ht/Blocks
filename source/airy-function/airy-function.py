@@ -15,10 +15,10 @@ axes[1].plot(x, bi, 'b--', label='Bi(x)')
 for axis in axes:
     axis.set_ylim(-0.5, 1.0)
     axis.set_yticks([])
-    axis.legend(loc='upper right')
+    axis.legend(loc='upper left')
+    axis.axis('off')
 
 axes[1].set_xlim(x.min(), x.max())
-    
 plt.show()
 
 # Complex
