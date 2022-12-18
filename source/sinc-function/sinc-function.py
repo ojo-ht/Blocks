@@ -2,12 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-plotting_half_window = 8*np.pi
+plotting_half_window = 8*np.pi # half-width of data to plot
 
-plot_components = True
-plot_sum = False
+plot_components = False
+plot_sum = True
 
-x = np.linspace(-plotting_half_window, plotting_half_window, 10000)
+x = np.linspace(-plotting_half_window, plotting_half_window, 10000) # (plots centered on x=0
 y1 = np.sinc(x / np.pi)
 
 # let's plot the sinc function
@@ -17,7 +17,7 @@ ax0.set_xlim(left=-plotting_half_window, right=plotting_half_window)
 ax0.axis('off')
 
 if plot_sum:
-    ax0.plot(x, y1, linestyle=':', color='k')
+    ax0.plot(x, y1, color='k')
 else:
     ax0.plot(x, y1)
 
@@ -41,7 +41,7 @@ if plot_components:
     ax.plot(x, y3)
 
 if plot_sum:
-    ax.plot(x, y4, color='k', linestyle=':')
+    ax.plot(x, y4, color='k')
 
 #ax.axhline(0, color='k', linestyle=':')
 #ax.axvline(-np.pi, color='k')
@@ -63,7 +63,7 @@ if plot_components:
     ax2.plot(x, y3)
 
 if plot_sum:
-    ax2.plot(x, y4, color='k', linestyle=':')
+    ax2.plot(x, y4, color='k')
 
 
 
