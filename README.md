@@ -1,5 +1,5 @@
 # Blocks
-lil chunks
+modular baby
 
 ## What is this?
 This is a collection of thoughts and ideas seeded by mathematics and
